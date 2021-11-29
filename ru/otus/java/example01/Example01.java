@@ -1,7 +1,7 @@
 package ru.otus.java.example01;
 
 public class Example01 {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Customer customer = new Customer(
                 CustomerType.CORPORATE,
                 "ABC corporation",
@@ -10,7 +10,7 @@ public class Example01 {
                 null);
 
         var discount = customer.getDiscount();
-        System.out.println(discount);
+        System.out.println("discount = " + discount);
     }
 }
 
